@@ -133,7 +133,7 @@
   span,
   div,
   li {
-    @apply text-muted-foreground;
+    @apply text-muted-foreground p-0 m-0 leading-none;
   }
 
   h1 {

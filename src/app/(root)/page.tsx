@@ -1,12 +1,19 @@
+import logo from '../../../public/logo/logo.png';
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <>
       <p className="font-semibold">INTRODUCING</p>
-      <h1>
-        PEER<span>FECTION</span>
-      </h1>
+      <div className="flex-center">
+        <h1>
+          PEER<span>FECTI</span>
+        </h1>
+        <Image src={logo} height={50} width={50} alt="PEERFECTION Logo" />
+        <h1>N</h1>
+      </div>
       <p>Together, we make it perfect.</p>
-      <p className="mt-4 text-[0.65em]">Created by James, Jaron, and Hersey</p>
+      <p className="mt-6 text-xs">Created by James, Jaron, and Hersey</p>
     </>
   );
 }
