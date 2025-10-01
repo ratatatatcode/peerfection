@@ -137,16 +137,16 @@
   }
 
   h1 {
-    @apply text-3xl font-extrabold;
+    @apply text-4xl font-extrabold;
   }
   h2 {
-    @apply text-2xl font-extrabold;
+    @apply text-3xl font-extrabold;
   }
   h3 {
-    @apply text-xl font-bold;
+    @apply text-2xl font-bold;
   }
   h4 {
-    @apply text-lg;
+    @apply text-xl;
   }
 }
 
