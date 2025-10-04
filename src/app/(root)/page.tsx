@@ -1,19 +1,17 @@
-import logo from '../../../public/logo/logo.png';
+import logo from '../../../public/logo/logo-gray.png';
 import Image from 'next/image';
 
 export default function Home() {
   return (
-    <>
+    <section className="flex-col-center">
       <p className="font-semibold">INTRODUCING</p>
-      <div className="flex-center">
-        <h1>
-          PEER<span>FECTI</span>
-        </h1>
-        <Image src={logo} height={50} width={50} alt="PEERFECTION Logo" />
-        <h1>N</h1>
-      </div>
+      <h1 className="flex items-center">
+        PEER<span>FECTI</span>
+        <Image src={logo} height={50} width={50} alt="PEERFECTION Logo Icon" />
+        <span>N</span>
+      </h1>
       <p>Together, we make it perfect.</p>
       <p className="mt-6 text-xs">Created by James, Jaron, and Hersey</p>
-    </>
+    </section>
   );
 }
