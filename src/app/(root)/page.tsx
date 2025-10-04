@@ -1,17 +1,9 @@
-import logo from '../../../public/logo/logo-gray.png';
-import Image from 'next/image';
+import Introduction from '@/components/landing/introduction';
 
 export default function Home() {
   return (
-    <section className="flex-col-center">
-      <p className="font-semibold">INTRODUCING</p>
-      <h1 className="flex items-center">
-        PEER<span>FECTI</span>
-        <Image src={logo} height={50} width={50} alt="PEERFECTION Logo Icon" />
-        <span>N</span>
-      </h1>
-      <p>Together, we make it perfect.</p>
-      <p className="mt-6 text-xs">Created by James, Jaron, and Hersey</p>
-    </section>
+    <>
+      <Introduction />
+    </>
   );
 }
